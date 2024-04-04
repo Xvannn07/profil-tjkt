@@ -1,0 +1,15 @@
+{
+  "name": "profil-jurusan",
+  "version": "1.0.0",
+  "description": "profil jurudn",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}

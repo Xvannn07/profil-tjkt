@@ -1,0 +1,82 @@
+.activity-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ccc; /* Menambahkan garis box */
+    padding: 10px; /* Menambahkan ruang di sekitar konten */
+}
+.activity-img {
+    flex: 0 0 200px;
+    margin-right: 20px;
+}
+.activity-img img {
+    max-width: 100%;
+    height: auto;
+}
+.activity-info {
+    flex: 1;
+}
+h2 {
+    margin-top: 0;
+}
+
+
+.centered-text {
+    text-align: center;
+}
+.member-list {
+    list-style: none;
+    padding: 0;
+}
+.member-item {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Menengahkan secara horizontal */
+    margin-bottom: 10px;
+}
+.member-icon {
+    margin-right: 10px;
+}
+.member-name {
+    /* Flex tidak perlu diterapkan jika ingin menengahkan vertikal */
+    text-align: center; /* Menengahkan secara horizontal */
+}
+
+/* Style untuk Profil Guru dan Pegawai */
+#staff-profiles .staff-member {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  /* Media Queries untuk responsivitas */
+@media (max-width: 768px) {
+    #staff-profiles .staff-member img {
+        border-radius: 50%;
+        margin-bottom: 15px;
+        height: 350px;
+        width: 350px;
+      }
+  }
+  
+  @media (max-width: 480px) {
+    #staff-profiles .staff-member img {
+        border-radius: 50%;
+        margin-bottom: 15px;
+        width: 150px;
+        height: 150px;
+      }
+  }
+  
+  #staff-profiles h3 {
+    margin-bottom: 5px;
+  }
+  
+  #staff-profiles span {
+    font-style: italic;
+    color: #6c757d;
+  }
+  
+  #staff-profiles p {
+    font-weight: bold;
+  }
+  
