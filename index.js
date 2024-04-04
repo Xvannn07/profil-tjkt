@@ -27,7 +27,7 @@ app.get("/info", (req, res) => {
     res.sendFile(path.resolve(__dirname,"html/about.html"))
 })
 
-app.get("/kegiatan", (req, res) => {
+app.get("/informasi", (req, res) => {
     res.sendFile(path.resolve(__dirname,"html/informasi.html"))
 })
 
