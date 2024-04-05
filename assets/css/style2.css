@@ -36,11 +36,13 @@ h2 {
 }
 .member-icon {
     margin-right: 10px;
+    width: 40px;
+    height: 40px;
 }
 .member-name {
     /* Flex tidak perlu diterapkan jika ingin menengahkan vertikal */
     text-align: center; /* Menengahkan secara horizontal */
-    font-size: 60px;
+    font-size: 40px;
 }
 
 /* Style untuk Profil Guru dan Pegawai */
