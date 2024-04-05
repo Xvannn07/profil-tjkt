@@ -31,6 +31,10 @@ app.get("/informasi", (req, res) => {
     res.sendFile(path.resolve(__dirname,"html/informasi.html"))
 })
 
+app.get("/pelajaran", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "html/pelajaran.html"))
+})
+
 app.use((req, res) => res.status(404).sendFile(path.resolve(__dirname,"html/404.html")));
 
 app.listen(process.env.PORT || 3000, () => {
