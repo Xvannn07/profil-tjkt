@@ -40,6 +40,7 @@ h2 {
 .member-name {
     /* Flex tidak perlu diterapkan jika ingin menengahkan vertikal */
     text-align: center; /* Menengahkan secara horizontal */
+    font-size: 60px;
 }
 
 /* Style untuk Profil Guru dan Pegawai */
